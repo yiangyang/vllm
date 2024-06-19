@@ -14,7 +14,7 @@ For compare inference performance with intel CPU and GPU, use the save dataset f
 ## Uasge for the benchmark_offline.py script
 
 ```
-python3 offline_inference.py -h
+python3 benchmark_offline.py -h
 
 options:
   -h, --help                        show this help message and exit
@@ -30,7 +30,7 @@ options:
   --iteration ITERATION             Inference benchmark iterations
 
 Example:
-  python3 offline_inference.py --model_name llama2-7b-hf --input_tokens 128 --output_tokens 128 --iteration 50
+  python3 benchmark_offline.py --model_name llama2-7b-hf --input_tokens 128 --output_tokens 128 --iteration 50
 
 Output:
   ==================== Benchmark Result ====================
