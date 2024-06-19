@@ -11,7 +11,7 @@ wget https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/r
 
 For compare inference performance with intel CPU and GPU, use the save dataset from `xFasterTransformer/benchmark/prompt.json`
 
-## Uasge for the benchmark_offline.py script
+## Usage for the benchmark_offline.py script
 
 ```
 python3 benchmark_offline.py -h
